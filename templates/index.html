@@ -1,10 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<title>Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GC site!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styless.css') }}">
 </head>
 <body>
-<h1>Minha página pessoal</h1>
+    <header>
+        <div class="container">
+            <nav>
+                <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                <ul class="menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#o-que-sao">O que são "NãoSei"?</a></li>
+                    <li><a href="#ofertas">Meus Hobbies!</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2>Descubra o meu Mundo!</h2>
+            <p>Explore as criaturas paranormais que habitam em forma de nome de programações e descubra mais sobre mim!</p>
+            <a href="#ofertas" class="btn-primary">Meus Hobbies</a>
+        </div>
+    </section>
+
+    <section id="o-que-sao">
+        <div class="container">
+            <h2>Antes de me apresentar, conheça os "Não Sei":</h2>
+            <p>NãoSei são criaturas paranormais que habitam em meio aos humanos em forma de nome de programações,
+                há vários tipos de NãoSei dependendo de qual tipo
+                de nome de programação eles assombrem, podendo ter
+                de qualquer tipo de nome de programação que existe! (Sim. Q u a l q u e r um.)
+                Porém, são completamente inofensivos, mas ainda sim podem atacar se forem mal cuidados
+                ou destratados, além de alguns serem muito reservados.
+                Porém, há apenas uma criatura que eles realmente temem, a criatura toda-poderosa: "Moisés".</p>
+                Moisés é um ser que vive por fora dos nomes de programação, combatendo os pequenos NãoSei para que
+                eles não existam e não se reproduzam, para que a cada dia, todos os humanos não tenham NãoSei no nome
+                de suas programações e variáveis.
+        </div>
+    </section>
+
+    <section id="o-que-sao_dois">
+        <div class="container">
+            <h2>Agora sim, "Quem sou eu?"</h2>
+            <p>Meu nome é Guilherme Colletti da Silva, sou estudante do 2ºano do Ensino Médio na escola
+            SESI 165º, na cidade de Piracicaba. Meu sonho é me tornar um grande programador, e meu objetivo
+            é me tornar um desenvolvedor de jogos para que através dos meus jogos, eu possa tornar a vida das
+            pessoas um pouco mais feliz, mesmo que por pouco tempo.
+            Em 2026, espero ser selecionado para o programa "Passaporte do Futuro", onde 21 alunos de toda rede SESI
+            do estado de São Paulo serão selecionados para ir em qualquer faculdade do mundo para seguirem seus sonhos,
+            e assim, espero em 2026 me encontrar na universidade "Mount Allison", no Canadá estudando ciência da computação. </p>
+        </div>
+    </section>
+
+    <section id="ofertas">
+        <div class="container">
+            <h2>Meus Hobbies Favoritos:</h2>
+            <ul class="offer-list">
+                <li><img src="static/images/joge-video-action.jpg" alt="JogeVídeo de ação"><h3>Jogos Indies (Ex: UNDERTALE)</h3></li>
+                <li><img src="static/images/joge-video-terror.jpg" alt="JogeVídeo de terror"><h3>Jogos de Terror (Meus Preferidos! Em específico: FNAF)</h3></li>
+                <li><img src="static/images/joge-video-fps.jpg" alt="JogeVídeo de FPS"><h3>Jogos de FPS (Ex: VALORANT)</h3></li>
+                <li><img src="static/images/joge-video-aventura.jpg" alt="JogeVídeo de aventura"><h3>Jogos de Aventura e Exploração</h3></li>
+                <li><img src="static/images/joge-video-rpg.jpg" alt="JogeVídeo de RPG"><h3>RPGs de Mesa (Ex: Ordem Paranormal)</h3></li>
+                <li><img src="static/images/joge-video-corrida.jpg" alt="JogeVídeo de corrida"><h3>Programações para passar o tempo</h3></li>
+                <li><img src="static/images/1_card.jpg" alt="JogeVídeo de corrida"><h3>Desenhos e Sketchs para tirar o tédio</h3></li>
+            </ul>
+            <h6>(Qualquer roubo não é de nossa responsabilidade)</h6>
+        </div>
+    </section>
+
+    <section id="contato">
+    <div class="container">
+        <h2>Se quiser saber mais sobre mim...</h2>
+        <p>Pode xeretar meu Instagram (que não tem muita coisa, é meio morto) e meu GitHub para saber de mais coisas sobre mim!</p>
+        <div class="social-buttons">
+            <a href="https://github.com/guicolletti?tab=repositories" target="_blank">
+                <img src="static/images/gitboo-aa.png" alt="GitHub" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com/gui_colletti/?next=%2F" target="_blank">
+                <img src="static/images/instaboo-aa.png" alt="Instagram" class="social-icon">
+            </a>
+        </div>
+    </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 - Guilherme Colletti</p>
+        </div>
+    </footer>
 </body>
 </html>

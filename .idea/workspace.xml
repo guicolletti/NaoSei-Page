@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="341adc7d-c536-41e7-860c-08cb76ca0573" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/NaoSei-Page.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    <list default="true" id="341adc7d-c536-41e7-860c-08cb76ca0573" name="Changes" comment="Eita">
+      <change afterPath="$PROJECT_DIR$/static/images/1_card.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/gitboo-aa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/gitboo-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/gitboo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/hero-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/instaboo-aa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/instaboo-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/instaboo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/joge-video-action.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/joge-video-aventura.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/joge-video-corrida.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/joge-video-fps.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/joge-video-rpg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/joge-video-terror.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styless.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,33 +34,37 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "guicolletti"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;guicolletti&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/guicolletti/NaoSei-Page.git",
-    "accountId": "d62fe669-2e42-4591-84e5-dfe5ffa12b50"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/guicolletti/NaoSei-Page.git&quot;,
+    &quot;accountId&quot;: &quot;d62fe669-2e42-4591-84e5-dfe5ffa12b50&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/main.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/static/styless.css" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/templates/index.html" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2kbK7VYbXa5yZSljAK5NhKRSc6R" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,9 +72,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/2_DEV/Downloads/NaoSei-Page/static/images",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,6 +86,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\2_DEV\Downloads\NaoSei-Page\static\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\2_DEV\Downloads\NaoSei-Page\static\images" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,11 +110,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723546669636</updated>
-      <workItem from="1723546670699" duration="317000" />
+      <workItem from="1723546670699" duration="3883000" />
+      <workItem from="1723552042343" duration="6131000" />
     </task>
+    <task id="LOCAL-00001" summary="Eita">
+      <option name="closed" value="true" />
+      <created>1723547117810</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723547117810</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Eita" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eita" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NaoSei_Page$main.coverage" NAME="main Coverage Results" MODIFIED="1723568976143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

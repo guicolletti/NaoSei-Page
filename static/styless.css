@@ -1,0 +1,244 @@
+/* Reset CSS básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para a seção hero */
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para seções */
+section {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#o-que-sao {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#o-que-sao_dois {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-img {
+    max-width: 60px;  /* Ajuste a largura máxima */
+    height: auto;      /* Mantém a proporção */
+    display: block;
+    margin: 0 auto 20px auto; /* Centraliza a imagem e adiciona margem abaixo */
+}
+
+
+.offer-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.offer-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.offer-list img {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h6 {
+    color: #777;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#contato {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+#contato h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#contato p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-social {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-social.github {
+    background-color: #333;
+}
+
+.btn-social.github:hover {
+    background-color: #555;
+}
+
+.btn-social.instagram {
+    background-color: #E1306C;
+}
+
+.btn-social.instagram:hover {
+    background-color: #C13584;
+}
+
+.social-buttons img {
+    width: 40px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.social-buttons img:hover {
+    opacity: 0.8;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Aumenta o espaço entre as imagens */
+    margin-top: 30px; /* Adiciona margem superior para separar do texto */
+}
+
+.social-link {
+    display: flex; /* Garante que o link centralize a imagem */
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon {
+    width: 2-0px; /* Aumenta o tamanho da imagem */
+    height: 80px; /* Mantém a proporção das imagens quadradas */
+    border-radius: 50%; /* Faz as imagens ficarem em formato circular, se preferir */
+    object-fit: cover; /* Garante que a imagem se ajuste dentro do espaço sem distorção */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Aumenta a imagem um pouco ao passar o mouse */
+    opacity: 0.9; /* Adiciona um efeito de opacidade no hover */
+}
